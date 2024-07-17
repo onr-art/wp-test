@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/dev.drcagro.net
+    - /bin/cp -r * $DEPLOYPATH 
